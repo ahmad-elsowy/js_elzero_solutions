@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Learn JavaScript</title>
+    <script>
+      // not executed --> do not find the elements 
+      document.getElementById("el").style.color = "yello";
+    </script>
+    <!-- <script>
+      // will be executed 
+      window.onload = function () {
+        document.getElementById("el").style.color = "green";
+      };
+    </script> -->
+  </head>
+  <body>
+    <h1 id="el">Page Title</h1>
+    <script>
+      // executed if window.onload is hidden
+      document.getElementById("el").style.color = "blue";
+    </script>
+  </body>
+</html>
