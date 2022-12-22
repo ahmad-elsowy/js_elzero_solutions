@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10%;
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+.container .form {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #eee;
+    border-radius: 10px;
+    border: 1px solid gray;
+    
+}
+
+.container .form .input {
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid gray;
+    outline: none;
+}
+.container .form .add {
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid gray;
+    background-color: #ff7100ab;
+    color: white;
+}   
+.container .tasks {
+    background-color: #eee;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+
+}
